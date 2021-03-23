@@ -40,22 +40,26 @@ Ce script peut être utile dans de nombreux cas, et permet un gain de temps cons
 ## 4.	Fonctionnement du script :
 
 Le script fonctionne de manière interactive, cela signifie qu’à l’exécution du script, un menu apparaîtra dans le terminal et proposera à l’utilisateur de récupérer les informations qu’il souhaite. 
+
 Par exemple si l’utilisateur saisit le nombre « 2 », le script affichera les informations relatives au CPU puis une fois les informations affichées, le menu apparaîtra à nouveau pour permettre à l’utilisateur de récupérer les informations qu’il souhaite.
 
 ![Capture d’écran (17)](https://user-images.githubusercontent.com/78484229/112192625-6c072780-8c07-11eb-98e2-ae965c8385a6.png)
 
 Le fait d’avoir un script interactif et de proposer un menu, permet de laisser le choix à l’utilisateur concernant les informations qu’il souhaite récupérer. 
+
 De plus, même si l’utilisateur décide d’afficher uniquement les informations relatives au processeur et au disque dur par exemple, le script une fois éteint sauvegardera l’ensemble des informations dans un fichier au format « .txt » nommé « resultats_script.txt ». 
+
 Cela permettra à l’utilisateur de pouvoir lire toutes les informations de la machine ultérieurement. 
 
 Dans le cas où l’utilisateur saisit autre chose qu’un nombre situé entre 1 et 9, le script affichera un message d’erreur en indiquant à l’utilisateur de saisir un nombre entre 1 et 9. Puis une fois qu’un nombre correct aura était saisi, le menu s’affichera à nouveau et l’utilisateur pourra récupérer les informations souhaitées. 
+
 Pour mettre fin au script, il suffit à l’utilisateur de taper le nombre « 8 » et le script effectuera une sauvegarde comme je le disais des informations de la machine avant de se fermer. 
 
 
 ## 5.	Améliorations possibles :
 
-Un autre avantage de ce script c’est qu’il a était conçu de manière à pouvoir évoluer et peut être exécuté sur plusieurs machines différentes sans avoir à changé quoi que ce soit au niveau du code. Comme vous l’imaginais les possibilités d’évolution sont nombreuses concernant la récupération d’informations d’une machine.
-Voici quelques idées de ma part :
+Un autre avantage de ce script c’est qu’il a était conçu de manière à pouvoir évoluer et peut être exécuté sur plusieurs machines différentes sans avoir à changé quoi que ce soit au niveau du code. 
+Comme vous l’imaginais les possibilités d’évolution sont nombreuses concernant la récupération d’informations d’une machine. Voici quelques idées de ma part :
 
 -	Modifier le script pour qu’il s’exécute sur de nombreuses machines et qu’il sauvegarde les informations de chaque machine dans des fichiers distincts. Par exemple info_poste1.txt, info_poste2.txt, info_poste3.txt, …
 
