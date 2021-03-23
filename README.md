@@ -65,3 +65,8 @@ Voici quelques idées de ma part :
 
 -	Etc… 
 
+## 6. Auteur :
+
+Skaelf
+
+
