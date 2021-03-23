@@ -8,6 +8,7 @@ Sommaire :
 -	Améliorations possibles
 
 
+
 1.	Objectif du script :
 
 Ce script permet de récupérer de nombreuses informations sur une machine de manière interactive et permet également de sauvegarder automatiquement l’ensemble de ces informations dans un fichier au format « .txt » une fois que l’extinction du script. Voici la liste des informations que permet de récupérer le script :
@@ -30,6 +31,7 @@ Dans un autre cas de figure, on pourrait également lancer le script de manière
 Ce script peut être utile dans de nombreux cas, et permet un gain de temps considérable pour récupérer des informations sur une machine.
 
 
+
 2.	Pré-requis :
 
 Pour que le script soit fonctionnel, il est nécessaire d’effectuer plusieurs actions :
@@ -37,6 +39,7 @@ Pour que le script soit fonctionnel, il est nécessaire d’effectuer plusieurs 
 -	Script applicable sur « Linux » ;
 -	Installation de python3 ;
 -	Vérifier que les modules suivants : « psutil », « os », « platform » et « sys » sont bien installés sur la machine ;
+
 
 
 
