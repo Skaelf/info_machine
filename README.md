@@ -44,6 +44,8 @@ Pour que le script soit fonctionnel, il est nécessaire d’effectuer plusieurs 
 Le script fonctionne de manière interactive, cela signifie qu’à l’exécution du script, un menu apparaîtra dans le terminal et proposera à l’utilisateur de récupérer les informations qu’il souhaite. 
 Par exemple si l’utilisateur saisit le nombre « 2 », le script affichera les informations relatives au CPU puis une fois les informations affichées, le menu apparaîtra à nouveau pour permettre à l’utilisateur de récupérer les informations qu’il souhaite.
 
+https://github.com/Skaelf/info_machine/issues/1#issue-838967135
+
 Le fait d’avoir un script interactif et de proposer un menu, permet de laisser le choix à l’utilisateur concernant les informations qu’il souhaite récupérer. 
 De plus, même si l’utilisateur décide d’afficher uniquement les informations relatives au processeur et au disque dur par exemple, le script une fois éteint sauvegardera l’ensemble des informations dans un fichier au format « .txt » nommé « resultats_script.txt ». 
 Cela permettra à l’utilisateur de pouvoir lire toutes les informations de la machine ultérieurement. 
