@@ -32,8 +32,6 @@ Ce script peut être utile dans de nombreux cas, et permet un gain de temps cons
 
 ## 3.	Pré-requis :
 
-Pour que le script soit fonctionnel, il est nécessaire d’effectuer plusieurs actions :
-
 -	Script applicable sur « Linux » ;
 -	Installation de python3 ;
 -	Vérifier que les modules suivants : « psutil », « os », « platform » et « sys » sont bien installés sur la machine ;
