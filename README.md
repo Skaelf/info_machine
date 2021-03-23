@@ -1,6 +1,6 @@
 # info_machine
 
-Sommaire :
+## 1. Sommaire :
 
 -	Objectif du script
 -	Pré-requis
@@ -8,8 +8,7 @@ Sommaire :
 -	Améliorations possibles
 
 
-
-1.	Objectif du script :
+## 2.	Objectif du script :
 
 Ce script permet de récupérer de nombreuses informations sur une machine de manière interactive et permet également de sauvegarder automatiquement l’ensemble de ces informations dans un fichier au format « .txt » une fois que l’extinction du script. Voici la liste des informations que permet de récupérer le script :
 
@@ -31,8 +30,7 @@ Dans un autre cas de figure, on pourrait également lancer le script de manière
 Ce script peut être utile dans de nombreux cas, et permet un gain de temps considérable pour récupérer des informations sur une machine.
 
 
-
-2.	Pré-requis :
+## 3.	Pré-requis :
 
 Pour que le script soit fonctionnel, il est nécessaire d’effectuer plusieurs actions :
 
@@ -41,9 +39,7 @@ Pour que le script soit fonctionnel, il est nécessaire d’effectuer plusieurs 
 -	Vérifier que les modules suivants : « psutil », « os », « platform » et « sys » sont bien installés sur la machine ;
 
 
-
-
-3.	Fonctionnement du script :
+## 4.	Fonctionnement du script :
 
 Le script fonctionne de manière interactive, cela signifie qu’à l’exécution du script, un menu apparaîtra dans le terminal et proposera à l’utilisateur de récupérer les informations qu’il souhaite. 
 Par exemple si l’utilisateur saisit le nombre « 2 », le script affichera les informations relatives au CPU puis une fois les informations affichées, le menu apparaîtra à nouveau pour permettre à l’utilisateur de récupérer les informations qu’il souhaite.
@@ -56,7 +52,7 @@ Dans le cas où l’utilisateur saisit autre chose qu’un nombre situé entre 1
 Pour mettre fin au script, il suffit à l’utilisateur de taper le nombre « 8 » et le script effectuera une sauvegarde comme je le disais des informations de la machine avant de se fermer. 
 
 
-4.	Améliorations possibles :
+## 5.	Améliorations possibles :
 
 Un autre avantage de ce script c’est qu’il a était conçu de manière à pouvoir évoluer et peut être exécuté sur plusieurs machines différentes sans avoir à changé quoi que ce soit au niveau du code. Comme vous l’imaginais les possibilités d’évolution sont nombreuses concernant la récupération d’informations d’une machine.
 Voici quelques idées de ma part :
